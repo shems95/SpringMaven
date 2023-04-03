@@ -72,17 +72,12 @@
                 <version>1.6.3</version>
                 <configuration>
                     <container>
-                        <containerId>tomcat8x</containerId>
-                        <type>remote</type>
+                        <containerId>tomcat9x</containerId>
                     </container>
                     <configuration>
-                        <type>runtime</type>
                         <properties>
-                            <cargo.hostname>myIPaddress</cargo.hostname>
                             <cargo.remote.username>username</cargo.remote.username>
                             <cargo.remote.password>password</cargo.remote.password>
-                            <cargo.tomcat.manager.url>http://localhost:8080/
-                            </cargo.tomcat.manager.url>
                         </properties>
                     </configuration>
                 </configuration>
